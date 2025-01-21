@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <style>
+        html,body{
+            margin: 0;
+            padding: 0;
+        }
+        h2{
+            font-size: 35px;
+            font-family: sans-serif;
+        }
+        h2:hover{
+            color: blue;
+            text-decoration: underline;
+        }
+        .nav{
+            margin-top:10px ;
+            border: 1px solid black;
+            height: 100px;
+            width: 100%;
+            display: flex;
+            justify-content:space-between;
+        }
+        #second{
+            margin-top: 20px;
+            background-color:#262837;
+            height: 300px;
+            width: 100%;
+            color: white;
+        }
+        #temp1{
+            height: 80%;
+            width: 100%;
+        }
+        #temp2{
+            background-color:#001eff;
+            height: 20%;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="nav">
+        <h2>All</h2>
+        <h2>Equity</h2>
+        <h2>Mutual Funds</h2>
+        <h2>SGB</h2>
+        <h2>Advisory</h2>
+    </div>   
+    <div id="second">
+        <!-- first box -->
+        <div id="temp1">
+            <h1>$11,991</h1>
+            <h1>Overall Gain <span style="color: rgb(46, 251, 149);">$552.34</span> (+4.55%)</h1>
+            <div style="display: flex;justify-content: space-between;">
+                <div>
+                    <h1>invested value</h1>
+                    <h2>$11,991</h2>
+                </div>
+                <div>
+                    <h1>👨🏻Todays Gain</h1>
+                    <h2 style="color: rgb(46, 251, 149);">$11,991</h2>
+                </div>
+                
+            </div>
+        </div>
+        <!-- second box -->
+            <div id="temp2">
+            </div>
+    </div>
+</body>
+</html>
